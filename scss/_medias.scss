@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px ) {
+    .padre, h3, .bot, h4, .vide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .father {
+        display: flex;
+        flex-wrap: wrap;
+        width: 20%;
+        height: 20%;      
+    }
+}
+
+@media screen and (max-width: 700px) {
+  
+   .pop {
+       display: flex;
+       flex-wrap: wrap;
+       width: 55%;
+       height: 55%;
+   }
+  }
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 40px;
+    }
+}
